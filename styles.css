@@ -1,0 +1,34 @@
+h1 {
+  font-family: "Arial Black", Arial, Impact, serif;
+  color: Chocolate;
+}
+
+body {
+  background: Gold;
+  font-family: Arial, serif;
+}
+
+input[type="text"] {
+    width: 302px;
+}
+
+.pColor {
+  font-family: Arial, serif;
+  color: olive;
+}
+
+.beerColor {
+  font-family: Arial, serif;
+  color: black;
+  font-size: 1.4em;
+}
+
+.monthColor {
+  font-family: Arial, serif;
+  color: sienna;
+  font-size: 1.2em;
+}
+
+img {
+  border: 2px solid black;
+}
