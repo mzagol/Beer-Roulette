@@ -10,7 +10,7 @@
 
     // random number created in order to generate random beer
 
-    var chance;
+    var chance = makeChance();
 
      function makeChance() {
        var first = Math.random();
@@ -18,8 +18,6 @@
        var finalNum = Math.floor(revised);
        return finalNum;
      }
-
-    chance = makeChance();
 
     var beerChoices = {
       ipas: ["", "Founders' All Day IPA", "Dogfish Head 60 Minute IPA", "Stone IPA", "Lagunitas IPA", "Firestone Walker Union Jack IPA", "La Cumbre Elevated IPA"],
