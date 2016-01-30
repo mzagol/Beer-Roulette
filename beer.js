@@ -10,14 +10,12 @@
 
     // random number created in order to generate random beer
 
-    var chance = makeChance();
-
-     function makeChance() {
+    var chance = function() {
        var first = Math.random();
        var revised = (first * 6) + 1;
        var finalNum = Math.floor(revised);
        return finalNum;
-     }
+     };
 
     var beerChoices = {
       ipas: ["", "Founders' All Day IPA", "Dogfish Head 60 Minute IPA", "Stone IPA", "Lagunitas IPA", "Firestone Walker Union Jack IPA", "La Cumbre Elevated IPA"],
@@ -69,72 +67,72 @@
     for (var i = 0; i < beerCommands.scottish.length; i++) {
       finalBeerDisplay.className=".beerColor";
       if (beerPick === beerCommands.ipas[i]) {
-        finalBeerDisplay.innerHTML = beerChoices.ipas[chance];
+        finalBeerDisplay.innerHTML = beerChoices.ipas[chance()];
         changePic("pic", "images/ipa.jpg");
         break;
       }
       else if (beerPick === beerCommands.stouts[i]) {
-        finalBeerDisplay.innerHTML = beerChoices.stouts[chance];
+        finalBeerDisplay.innerHTML = beerChoices.stouts[chance()];
         changePic("pic", "images/pint.jpg");
         break;
       }
       else if (beerPick === beerCommands.rares[i]) {
-        finalBeerDisplay.innerHTML = beerChoices.rares[chance];
+        finalBeerDisplay.innerHTML = beerChoices.rares[chance()];
         changePic("pic", "images/kbs.jpg");
         break;
       }
       else if (beerPick === beerCommands.lagers[i]) {
-      finalBeerDisplay.innerHTML = beerChoices.lagers[chance];
+      finalBeerDisplay.innerHTML = beerChoices.lagers[chance()];
       changePic("pic", "images/lager.jpg");
       break;
       }
       else if (beerPick === beerCommands.paleAles[i]) {
-        finalBeerDisplay.innerHTML = beerChoices.paleAles[chance];
+        finalBeerDisplay.innerHTML = beerChoices.paleAles[chance()];
         changePic("pic", "images/paleAle.jpg");
         break;
       }
       else if (beerPick === beerCommands.belgians[i]) {
-        finalBeerDisplay.innerHTML = beerChoices.belgians[chance];
+        finalBeerDisplay.innerHTML = beerChoices.belgians[chance()];
         changePic("pic", "images/belg.jpg");
         break;
       }
       else if (beerPick === beerCommands.ciders[i]) {
-        finalBeerDisplay.innerHTML = beerChoices.ciders[chance];
+        finalBeerDisplay.innerHTML = beerChoices.ciders[chance()];
         changePic("pic", "images/1.jpg");
         break;
       }
       else if (beerPick === beerCommands.xmas[i]) {
-        finalBeerDisplay.innerHTML = beerChoices.xmas[chance];
+        finalBeerDisplay.innerHTML = beerChoices.xmas[chance()];
         changePic("pic", "images/1.jpg");
         break;
       }
       else if (beerPick === beerCommands.pumpkin[i]) {
-        finalBeerDisplay.innerHTML = beerChoices.pumpkin[chance];
+        finalBeerDisplay.innerHTML = beerChoices.pumpkin[chance()];
         changePic("pic", "images/1.jpg");
         break;
       }
       else if (beerPick === beerCommands.oktoberfest[i]) {
-        finalBeerDisplay.innerHTML = beerChoices.oktoberfest[chance];
+        finalBeerDisplay.innerHTML = beerChoices.oktoberfest[chance()];
         changePic("pic", "images/1.jpg");
         break;
       }
       else if (beerPick === beerCommands.scottish[i]) {
-        finalBeerDisplay.innerHTML = beerChoices.scottish[chance];
+        finalBeerDisplay.innerHTML = beerChoices.scottish[chance()];
         changePic("pic", "images/1.jpg");
         break;
       }
       else if (beerPick === beerCommands.pilsner[i]) {
-        finalBeerDisplay.innerHTML = beerChoices.pilsner[chance];
+        finalBeerDisplay.innerHTML = beerChoices.pilsner[chance()];
         changePic("pic", "images/1.jpg");
         break;
       }
       else if (beerPick === beerCommands.porter[i]) {
-        finalBeerDisplay.innerHTML = beerChoices.porter[chance];
+        finalBeerDisplay.innerHTML = beerChoices.porter[chance()];
         changePic("pic", "images/pint.jpg");
         break;
       }
       else if (beerPick === beerCommands.wheat[i]) {
-        finalBeerDisplay.innerHTML = beerChoices.wheat[chance];
+        finalBeerDisplay.innerHTML = beerChoices.wheat[chance()];
         changePic("pic", "images/1.jpg");
         break;
       }
