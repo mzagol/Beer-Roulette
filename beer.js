@@ -31,7 +31,8 @@
       scottish: ["", "Founders' Dirty Bastard", "3 Floyds Robert the Bruce", "BrewDog's San Diego Scotch Ale", "No Label's Perpetual Peace Wee Heavy", "Kettlehouse's Cold Smoke", "Oskar Blues' Old Chub Knightro"],
       pilsner: ["", "Firestone Walker's Pivo Pils", "Steam Whistle's Steam Whistle Pilsner",  "Boulevard's KC Pils", "Sixpoint's The Crisp", "Smuttynose's Vunderbar Pilsner", "Sierra Nevada's Nooner Pilsner"],
       porter: ["", "Oskar Blues' Death By Coconut", "Kane's Sunday Brunch", "fiddlehead's Hodad", "Smog City's Coffee Porter", "Dangerous Man's Peanut Butter Porter", "Ballast Point's Victory At Sea"],
-      wheat: ["", "3 Floyds Gumballhead", "Lagunitas A Little Sumpin' Sumpin'", "Barrier's Bumble", "Blue Lobster's Stalkholm Syndrome", "Parish's Canebrake", "Alpine's Willy Vanilly"]
+      wheat: ["", "3 Floyds Gumballhead", "Lagunitas A Little Sumpin' Sumpin'", "Barrier's Bumble", "Blue Lobster's Stalkholm Syndrome", "Parish's Canebrake", "Alpine's Willy Vanilly"],
+      amber: ["", "New Belgium's Fat Tire", "Maine Beer Co.'s Zoe", "Cigar City's Tocobaga", "AleSmith's Evil Dead Red", "Ale Asylum's Ambergeddon", "Buffalo Bayou's 1836"]
     };
 
     var beerCommands = {
@@ -48,7 +49,8 @@
       scottish: ["scottish", "scottish ale", "scotch ale", "wee", "wee heavy", "scotch ale-wee heavy", "scotch ale/wee heavy"],
       pilsner: ["pilsner"],
       porter: ["porter"],
-      wheat: ["wheat", "wheate ale", "summer"]
+      wheat: ["wheat", "wheate ale", "summer"],
+      amber: ["amber", "american amber", "red", "red ale"]
     };
 
     // function to change picture, depending on beer displayed
@@ -133,6 +135,11 @@
       }
       else if (beerPick === beerCommands.wheat[i]) {
         finalBeerDisplay.innerHTML = beerChoices.wheat[chance()];
+        changePic("pic", "images/1.jpg");
+        break;
+      }
+      else if (beerPick === beerCommands.amber[i]) {
+        finalBeerDisplay.innerHTML = beerChoices.amber[chance()];
         changePic("pic", "images/1.jpg");
         break;
       }
