@@ -1,20 +1,24 @@
 h1 {
   font-family: "Arial Black", Arial, Impact, serif;
   color: Chocolate;
+  text-align: center;
 }
 
 body {
   background: Gold;
   font-family: Arial, serif;
+  text-align: center;
 }
 
 input[type="text"] {
     width: 302px;
+    position: center;
 }
 
 .pColor {
   font-family: Arial, serif;
   color: olive;
+  text-align: center;
 }
 
 .beerColor {
@@ -31,4 +35,6 @@ input[type="text"] {
 
 img {
   border: 2px solid black;
+  position: center;
 }
+
