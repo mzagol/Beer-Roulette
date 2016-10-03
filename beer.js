@@ -23,9 +23,9 @@
     };
 
     var beerChoices = {
-      ipas: ["Founders' All Day IPA", "Dogfish Head 60 Minute IPA", "Stone IPA", "Lagunitas IPA", "Firestone Walker Union Jack IPA", "La Cumbre Elevated IPA"],
+      ipas: ["Founders' All Day IPA", "Dogfish Head 60 Minute IPA", "Stone IPA", "Lagunitas IPA", "Firestone Walker Union Jack IPA", "La Cumbre Elevated IPA", "Goose Island India Pale Ale", "Shipyard IPA", "Samuel Smith’s India Ale"],
       rares: ["KBS", "Dark Lord", "Bourbon County Brand Stout", "Pliny the Elder", "Pliny the Younger", "Heady Topper"],
-      stouts: ["Founder's Breakfast Stout", "Oskar Blues' Ten FIDY", "Bell's Kalamazoo Stout", "The Bruery's Chocolate Rain", "Boneyard's Backbone Stout", "Maine's Mean Old Tom"],
+      stouts: ["Founder's Breakfast Stout", "Oskar Blues' Ten FIDY", "Bell's Kalamazoo Stout", "The Bruery's Chocolate Rain", "Boneyard's Backbone Stout", "Maine's Mean Old Tom", "Guinness Draught", "Murphy's Irish Stout", "Beamish Irish Stout"],
       lagers: ["Samuel Adams Boston Lager", "Yuengling", "PBR", "Magic Hat's Dream Machine", "Fort George's 1811 Lager", "Heineken"],
       paleAles: ["3 Floyds Zombie Dust", "Bell's Two Hearted Ale", "Toppling Goliath's pseudo Sue", "Sierra Nevada's Pale Ale", "Tree House's Lights Out", "Pipeworks' The Lizard King"],
       belgians: ["Goose Island's Matilda", "New England's Fat Ten-er", "Allagash's White", "Anchorage's Bitter Monk", "Sierra Nevada's Sleight of Hand", "Revolution's A Little Crazy"],
@@ -37,7 +37,10 @@
       pilsner: ["Firestone Walker's Pivo Pils", "Steam Whistle's Steam Whistle Pilsner",  "Boulevard's KC Pils", "Sixpoint's The Crisp", "Smuttynose's Vunderbar Pilsner", "Sierra Nevada's Nooner Pilsner"],
       porter: ["Oskar Blues' Death By Coconut", "Kane's Sunday Brunch", "fiddlehead's Hodad", "Smog City's Coffee Porter", "Dangerous Man's Peanut Butter Porter", "Ballast Point's Victory At Sea"],
       wheat: ["3 Floyds Gumballhead", "Lagunitas A Little Sumpin' Sumpin'", "Barrier's Bumble", "Blue Lobster's Stalkholm Syndrome", "Parish's Canebrake", "Alpine's Willy Vanilly"],
-      amber: ["New Belgium's Fat Tire", "Maine Beer Co.'s Zoe", "Cigar City's Tocobaga", "AleSmith's Evil Dead Red", "Ale Asylum's Ambergeddon", "Buffalo Bayou's 1836"]
+      amber: ["New Belgium's Fat Tire", "Maine Beer Co.'s Zoe", "Cigar City's Tocobaga", "AleSmith's Evil Dead Red", "Ale Asylum's Ambergeddon", "Buffalo Bayou's 1836"],
+      germanSchwarzbier: ["Shiner Bohemian Black Lager", "Guinness Black Lager"],
+      belgian: ["Leffe Blonde", "Weyerbacher Brewing Company's Verboten", "Samuel Adams Belgian Session", "Chimay Premiere", "Blue Moon Winter Abbey Ale", "Flying Fish Abbey Dubbel", "Victory Brewing Company's Golden Monkey", "Weyerbacher Brewing Company's Merry Monks"]
+
     };
 
     var beerCommands = {
