@@ -18,8 +18,8 @@
      };
 
     var beerChoices = {
-      ipas: ["", "Founders' All Day IPA", "Dogfish Head 60 Minute IPA", "Stone IPA", "Lagunitas IPA", "Firestone Walker Union Jack IPA", "La Cumbre Elevated IPA"],
-      rares: ["", "KBS", "Dark Lord", "Bourbon County Brand Stout", "Pliny the Elder", "Pliny the Younger", "Heady Topper"],
+      ipas: ["", "Founders' All Day IPA", "Dogfish Head 60 Minute IPA", "Stone IPA", "Lagunitas IPA", "Firestone Walker Union Jack IPA", "La Cumbre Elevated IPA", "Ballast Point Scuplin", "Founders Centennial IPA"],
+      rares: ["", "KBS", "Dark Lord", "Bourbon County Brand Stout", "Pliny the Elder", "Pliny the Younger", "Heady Topper", "Hopslam"],
       stouts: ["", "Founder's Breakfast Stout", "Oskar Blues' Ten FIDY", "Bell's Kalamazoo Stout", "The Bruery's Chocolate Rain", "Boneyard's Backbone Stout", "Maine's Mean Old Tom"],
       lagers: ["", "Samuel Adams Boston Lager", "Yuengling", "PBR", "Magic Hat's Dream Machine", "Fort George's 1811 Lager", "Heineken"],
       paleAles: ["", "3 Floyds Zombie Dust", "Bell's Two Hearted Ale", "Toppling Goliath's pseudo Sue", "Sierra Nevada's Pale Ale", "Tree House's Lights Out", "Pipeworks' The Lizard King"],
@@ -161,15 +161,15 @@
     var monthToCheck = beerMonth();
 
     function beerMonth() {
-  
+
       var months = ["New Glarus' Road Slush Oatmeal Stout", "Bell's Kalamazoo Stout", "Guiness", "Founder's KBS", "Bell's Two Hearted Ale", "Two Brother's Dog Days", "Lagunitas' A Little Sumpin' Sumpin'", "3 Floyd's Gumballhead", "New Belgium's Fat Tire", "Revolution's Oktoberfest", "Goose Island's Bourbon County Brand Stout", "3 Floyd's Alpha Klause"];
       var now = new Date();
       var month = now.getMonth();
       var currentMonth = months[month];
       return currentMonth;
-  
+
     }
-  
+
     monthBeer.innerHTML = monthToCheck;
 
   }
