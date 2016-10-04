@@ -73,81 +73,71 @@
 
     var finalBeerDisplay = document.getElementById("beerOutput");
 
+    function setPicture(beerType, picPath) {
+        finalBeerDisplay.innerHTML = getRandomElement(beerType);
+        changePic("pic", "images/"+ picPath);
+    }
+
     for (var i = 0; i < beerCommands.scottish.length; i++) {
       finalBeerDisplay.className=".beerColor";
       if (beerPick === beerCommands.ipas[i]) {
-        finalBeerDisplay.innerHTML = getRandomElement(beerChoices.ipas);
-        changePic("pic", "images/ipa.jpg");
+        setPicture(beerChoices.ipas, "ipa.jpg");
         break;
       }
       else if (beerPick === beerCommands.stouts[i]) {
-        finalBeerDisplay.innerHTML = getRandomElement(beerChoices.stouts);
-        changePic("pic", "images/pint.jpg");
+        setPicture(beerChoices.stouts, "pint.jpg");
         break;
       }
       else if (beerPick === beerCommands.rares[i]) {
-        finalBeerDisplay.innerHTML = getRandomElement(beerChoices.rares);
-        changePic("pic", "images/kbs.jpg");
+        setPicture(beerChoices.rares, "kbs.jpg");
         break;
       }
       else if (beerPick === beerCommands.lagers[i]) {
-      finalBeerDisplay.innerHTML = getRandomElement(beerChoices.lagers);
-      changePic("pic", "images/lager.jpg");
-      break;
+        setPicture(beerChoices.lagers, "lager.jpg");
+        break;
       }
       else if (beerPick === beerCommands.paleAles[i]) {
-        finalBeerDisplay.innerHTML = getRandomElement(beerChoices.paleAles);
-        changePic("pic", "images/paleAle.jpg");
+        setPicture(beerChoices.paleAles, "paleAle.jpg");
         break;
       }
       else if (beerPick === beerCommands.belgians[i]) {
-        finalBeerDisplay.innerHTML = getRandomElement(beerChoices.belgians);
-        changePic("pic", "images/belg.jpg");
+        setPicture(beerChoices.belgians, "belg.jpg");
         break;
       }
       else if (beerPick === beerCommands.ciders[i]) {
-        finalBeerDisplay.innerHTML = getRandomElement(beerChoices.ciders);
-        changePic("pic", "images/1.jpg");
+        setPicture(beerChoices.ciders, "1.jpg");
         break;
       }
       else if (beerPick === beerCommands.xmas[i]) {
-        finalBeerDisplay.innerHTML = getRandomElement(beerChoices.xmas);
-        changePic("pic", "images/1.jpg");
+        setPicture(beerChoices.xmas, "1.jpg");
         break;
       }
       else if (beerPick === beerCommands.pumpkin[i]) {
-        finalBeerDisplay.innerHTML = getRandomElement(beerChoices.pumpkin);
-        changePic("pic", "images/1.jpg");
+        setPicture(beerChoices.pumpkin, "1.jpg");
         break;
       }
       else if (beerPick === beerCommands.oktoberfest[i]) {
-        finalBeerDisplay.innerHTML = getRandomElement(beerChoices.oktoberfest);
-        changePic("pic", "images/1.jpg");
+        setPicture(beerChoices.oktoberfest, "1.jpg");
         break;
       }
       else if (beerPick === beerCommands.scottish[i]) {
-        finalBeerDisplay.innerHTML = getRandomElement(beerChoices.scottish);
-        changePic("pic", "images/1.jpg");
+        setPicture(beerChoices.scottish, "1.jpg");
         break;
       }
       else if (beerPick === beerCommands.pilsner[i]) {
-        finalBeerDisplay.innerHTML = getRandomElement(beerChoices.pilsner);
-        changePic("pic", "images/1.jpg");
+        setPicture(beerChoices.pilsner, "1.jpg");
         break;
       }
       else if (beerPick === beerCommands.porter[i]) {
-        finalBeerDisplay.innerHTML = getRandomElement(beerChoices.porter);
-        changePic("pic", "images/pint.jpg");
+        setPicture(beerChoices.porter, "pint.jpg");
         break;
       }
       else if (beerPick === beerCommands.wheat[i]) {
-        finalBeerDisplay.innerHTML = getRandomElement(beerChoices.wheat);
-        changePic("pic", "images/1.jpg");
+        setPicture(beerChoices.wheat, "1.jpg");
         break;
       }
       else if (beerPick === beerCommands.amber[i]) {
-        finalBeerDisplay.innerHTML = getRandomElement(beerChoices.amber);
-        changePic("pic", "images/1.jpg");
+        setPicture(beerChoices.amber, "1.jpg");
         break;
       }
       else {
