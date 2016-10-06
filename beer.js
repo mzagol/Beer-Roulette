@@ -26,7 +26,7 @@
       ipas: ["Founders' All Day IPA", "Dogfish Head 60 Minute IPA", "Stone IPA", "Lagunitas IPA", "Firestone Walker Union Jack IPA", "La Cumbre Elevated IPA", "Goose Island India Pale Ale", "Shipyard IPA", "Samuel Smith’s India Ale", "Ballast Point Scuplin", "Founders Centennial IPA"],
       rares: ["KBS", "Dark Lord", "Bourbon County Brand Stout", "Pliny the Elder", "Pliny the Younger", "Heady Topper", "Hopslam"],
       stouts: ["Founder's Breakfast Stout", "Oskar Blues' Ten FIDY", "Bell's Kalamazoo Stout", "The Bruery's Chocolate Rain", "Boneyard's Backbone Stout", "Maine's Mean Old Tom", "Guinness Draught", "Murphy's Irish Stout", "Beamish Irish Stout"],
-      lagers: ["Samuel Adams Boston Lager", "Yuengling", "PBR", "Magic Hat's Dream Machine", "Fort George's 1811 Lager", "Heineken"],
+      lagers: ["Samuel Adams Boston Lager", "Yuengling", "PBR", "Magic Hat's Dream Machine", "Fort George's 1811 Lager", "Heineken", "Dos Equis XX Special Lager"],
       paleAles: ["3 Floyds Zombie Dust", "Bell's Two Hearted Ale", "Toppling Goliath's pseudo Sue", "Sierra Nevada's Pale Ale", "Tree House's Lights Out", "Pipeworks' The Lizard King"],
       belgians: ["Goose Island's Matilda", "New England's Fat Ten-er", "Allagash's White", "Anchorage's Bitter Monk", "Sierra Nevada's Sleight of Hand", "Revolution's A Little Crazy"],
       ciders: ["Angry Orchard's Crisp Apple", "Cigar City Cider and Mead's Homemade Apple Pie", "Downeast Cider House's Original Blend", "Ciderboys' Mad Bark", "Bulmers' Original Irish Cider", "Blue Mountain's Cherry Cider"],
@@ -46,7 +46,7 @@
       ipas: ["bitter", "pale", "hoppy", "ipa", "india pale ale"],
       stouts: ["dark", "stout", "creamy", "thick", "malt", "malty"],
       rares: ["rare", "limited"],
-      lagers: ["lager"],
+      lagers: ["lager", "crisp", "smooth", "balanced"],
       paleAles: ["pale", "pale ale", "ale"],
       belgians: ["belgian", "white", "belgian ipa"],
       ciders: ["cider", "sweet", "fruit", "fruity", "apple", "fruity"],
@@ -141,7 +141,7 @@
         break;
       }
       else {
-        finalBeerDisplay.innerHTML = "invalid entry";
+        finalBeerDisplay.innerHTML = "Oops, try searching something else like 'bitter' or 'fruity'";
         finalBeerDisplay.className="pColor";
       }
     }
