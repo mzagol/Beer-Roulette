@@ -21,13 +21,13 @@
     }
 
     var beerChoices = {
-      ipas: ["Founders' All Day IPA", 'Dogfish Head 60 Minute IPA', 'Stone IPA', 'Lagunitas IPA', 'Firestone Walker Union Jack IPA', 'La Cumbre Elevated IPA', 'Goose Island India Pale Ale', 'Shipyard IPA', 'Samuel Smith’s India Ale', 'Ballast Point Scuplin', 'Founders Centennial IPA'],
-      rares: ['KBS', 'Dark Lord', 'Bourbon County Brand Stout', 'Pliny the Elder', 'Pliny the Younger', 'Heady Topper', 'Hopslam'],
+      ipas: ["Founders' All Day IPA", 'Dogfish Head 60 Minute IPA', 'Stone IPA', 'Lagunitas IPA', 'Firestone Walker Union Jack IPA', 'La Cumbre Elevated IPA', 'Goose Island India Pale Ale', 'Shipyard IPA', 'Samuel Smith’s India Ale', 'Ballast Point Scuplin', 'Founders Centennial IPA', "Jack Black's Skeleton Coast Indian Pale Ale"],
+      rares: ['KBS', 'Dark Lord', 'Bourbon County Brand Stout', 'Pliny the Elder', 'Pliny the Younger', 'Heady Topper', 'Hopslam', 'Asahi Super Dry'],
       stouts: ["Founder's Breakfast Stout", "Oskar Blues' Ten FIDY", "Bell's Kalamazoo Stout", "The Bruery's Chocolate Rain", "Boneyard's Backbone Stout", "Maine's Mean Old Tom", 'Guinness Draught', "Murphy's Irish Stout", 'Beamish Irish Stout'],
       lagers: ['Samuel Adams Boston Lager', 'Yuengling', 'PBR', "Magic Hat's Dream Machine", "Fort George's 1811 Lager", 'Heineken', 'Dos Equis XX Special Lager'],
-      paleAles: ['3 Floyds Zombie Dust', "Bell's Two Hearted Ale", "Toppling Goliath's pseudo Sue", "Sierra Nevada's Pale Ale", "Tree House's Lights Out", "Pipeworks' The Lizard King"],
+      paleAles: ['3 Floyds Zombie Dust', "Bell's Two Hearted Ale", "Toppling Goliath's pseudo Sue", "Sierra Nevada's Pale Ale", "Tree House's Lights Out", "Pipeworks' The Lizard King", "Jack Black's Cape Pale Ale", "Jack Black's Butcher Block"],
       belgians: ["Goose Island's Matilda", "New England's Fat Ten-er", "Allagash's White", "Anchorage's Bitter Monk", "Sierra Nevada's Sleight of Hand", "Revolution's A Little Crazy"],
-      ciders: ["Angry Orchard's Crisp Apple", "Cigar City Cider and Mead's Homemade Apple Pie", "Downeast Cider House's Original Blend", "Ciderboys' Mad Bark", "Bulmers' Original Irish Cider", "Blue Mountain's Cherry Cider"],
+      ciders: ["Angry Orchard's Crisp Apple", "Cigar City Cider and Mead's Homemade Apple Pie", "Downeast Cider House's Original Blend", "Ciderboys' Mad Bark", "Bulmers' Original Irish Cider", "Blue Mountain's Cherry Cider", "Kopparberg's Strawberry and Lime Cider", "Sidra El Gaitero"],
       xmas: ['3 Floyds Alpha Klaus Xmas Porter', "Revolution's Fistmas Ale", "Fremont's Bourbon Abominable", "Boulevard's Chocolate Ale", "Alaskan's Winter Ale", "Great South Bay's Sleigh Ryed"],
       pumpkin: ["Southern Tier's Pumking", "Dogfish Head's Punkin Ale", "Hoppin Frog's Frog's Hollow Double Pumpkin Ale", "Shipyard's Pumpkinhead Ale", "Avery's Rumpkin", "Elysian's Punkuccino Coffee Pumpkin Ale"],
       oktoberfest: ["Samuel Adams' Octoberfest", "Surly's SurleyFest", "New Glarus' Staghorn Octoberfest Beer", "Revolution's Oktoberfest", "Two Brothers' Atom Smasher", "Great Lakes' Oktoberfest"],
