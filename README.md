@@ -1,5 +1,5 @@
 # Beer-Roulette
-A Tool to Help Beer Enthusiasts Select a Random Beer to Try
+A tool to help beer enthusiasts to select a random beer to try
 
 This project was designed to merge my love of craft beer and my quest to learn to code.
 I made this version of Beer Roulette for me and I hope to keep improving it by adding more beer types 
