@@ -34,7 +34,7 @@
       scottish: ["Founders' Dirty Bastard", '3 Floyds Robert the Bruce', "BrewDog's San Diego Scotch Ale", "No Label's Perpetual Peace Wee Heavy", "Kettlehouse's Cold Smoke", "Oskar Blues' Old Chub Knightro"],
       pilsner: ["Firestone Walker's Pivo Pils", "Steam Whistle's Steam Whistle Pilsner", "Boulevard's KC Pils", "Sixpoint's The Crisp", "Smuttynose's Vunderbar Pilsner", "Sierra Nevada's Nooner Pilsner"],
       porter: ["Oskar Blues' Death By Coconut", "Kane's Sunday Brunch", "fiddlehead's Hodad", "Smog City's Coffee Porter", "Dangerous Man's Peanut Butter Porter", "Ballast Point's Victory At Sea"],
-      wheat: ['3 Floyds Gumballhead', "Lagunitas A Little Sumpin' Sumpin'", "Barrier's Bumble", "Blue Lobster's Stalkholm Syndrome", "Parish's Canebrake", "Alpine's Willy Vanilly"],
+      wheat: ['3 Floyds Gumballhead', "Lagunitas A Little Sumpin' Sumpin'", "Barrier's Bumble", "Blue Lobster's Stalkholm Syndrome", "Parish's Canebrake", "Alpine's Willy Vanilly", "Hacker Pschorr"],
       amber: ["New Belgium's Fat Tire", "Maine Beer Co.'s Zoe", "Cigar City's Tocobaga", "AleSmith's Evil Dead Red", "Ale Asylum's Ambergeddon", "Buffalo Bayou's 1836"],
       germanSchwarzbier: ['Shiner Bohemian Black Lager', 'Guinness Black Lager'],
       belgian: ['Leffe Blonde', "Weyerbacher Brewing Company's Verboten", 'Samuel Adams Belgian Session', 'Chimay Premiere', 'Blue Moon Winter Abbey Ale', 'Flying Fish Abbey Dubbel', "Victory Brewing Company's Golden Monkey", "Weyerbacher Brewing Company's Merry Monks"],
