@@ -25,6 +25,7 @@ input[type="text"] {
 	color: white;
 	border-radius: 10px;
 	border: 0px;
+	outline: none;
 }
 .pColor {
   font-family: Arial, serif;
